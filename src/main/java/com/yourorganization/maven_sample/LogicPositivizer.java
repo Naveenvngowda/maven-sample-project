@@ -51,7 +51,7 @@ public class LogicPositivizer {
                         binaryExpr.setOperator(BinaryExpr.Operator.EQUALS);
                     }
                 });
-                 return super.visit(n, arg);
+                return super.visit(n, arg);
             }
         }, null);
 
